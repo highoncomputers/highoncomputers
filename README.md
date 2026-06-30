@@ -74,3 +74,11 @@ philosophy: "Learn, build, share, repeat."
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=highoncomputers&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views"/>
 </p>
+### 🕵️ [BugFinder](https://github.com/highoncomputers/BugFinder)
+> AI-powered autonomous bug bounty assistant and security assessment platform.
+
+### 🎯 [PocketSET](https://github.com/highoncomputers/PocketSET)
+> Interactive TUI wrapper for the Social-Engineer Toolkit (SET).
+
+### 💀 [pocket-kali](https://github.com/highoncomputers/pocket-kali)
+> One-shot Kali Linux + XFCE4 desktop for Termux.
