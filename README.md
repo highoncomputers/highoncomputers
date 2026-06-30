@@ -47,12 +47,30 @@ philosophy: "Learn, build, share, repeat."
 
 ## 🚀 Featured Projects
 
+### 🕵️ [BugFinder](https://github.com/highoncomputers/BugFinder)
+> AI-powered autonomous bug bounty assistant and security assessment platform.
+>
+> [![](https://img.shields.io/github/stars/highoncomputers/BugFinder)](https://github.com/highoncomputers/BugFinder)
+> [![](https://img.shields.io/github/license/highoncomputers/BugFinder)](https://github.com/highoncomputers/BugFinder/blob/main/LICENSE)
+> [![](https://img.shields.io/github/v/release/highoncomputers/BugFinder)](https://github.com/highoncomputers/BugFinder/releases)
+
+### 🎯 [PocketSET](https://github.com/highoncomputers/PocketSET)
+> Interactive TUI wrapper for the Social-Engineer Toolkit (SET).
+>
+> [![](https://img.shields.io/github/stars/highoncomputers/PocketSET)](https://github.com/highoncomputers/PocketSET)
+> [![](https://img.shields.io/github/license/highoncomputers/PocketSET)](https://github.com/highoncomputers/PocketSET/blob/main/LICENSE)
+> [![](https://img.shields.io/github/v/release/highoncomputers/PocketSET)](https://github.com/highoncomputers/PocketSET/releases)
+
+### 💀 [pocket-kali](https://github.com/highoncomputers/pocket-kali)
+> One-shot Kali Linux + XFCE4 desktop for Termux.
+>
+> [![](https://img.shields.io/github/stars/highoncomputers/pocket-kali)](https://github.com/highoncomputers/pocket-kali)
+> [![](https://img.shields.io/github/license/highoncomputers/pocket-kali)](https://github.com/highoncomputers/pocket-kali/blob/main/LICENSE)
+> [![](https://img.shields.io/github/v/release/highoncomputers/pocket-kali)](https://github.com/highoncomputers/pocket-kali/releases)
+
 ### 📦 [termux-debian-auto](https://github.com/highoncomputers/termux-debian-auto)
 > Fully automated Debian proot-distro installer for Termux with XFCE4 GUI.
 > One command install, simple `debian`/`debian-gui` launchers.
-
-### 🧪 [misaki](https://github.com/highoncomputers/misaki)
-> G2P tool — experimental / personal project.
 
 ---
 
@@ -74,11 +92,3 @@ philosophy: "Learn, build, share, repeat."
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=highoncomputers&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views"/>
 </p>
-### 🕵️ [BugFinder](https://github.com/highoncomputers/BugFinder)
-> AI-powered autonomous bug bounty assistant and security assessment platform.
-
-### 🎯 [PocketSET](https://github.com/highoncomputers/PocketSET)
-> Interactive TUI wrapper for the Social-Engineer Toolkit (SET).
-
-### 💀 [pocket-kali](https://github.com/highoncomputers/pocket-kali)
-> One-shot Kali Linux + XFCE4 desktop for Termux.
