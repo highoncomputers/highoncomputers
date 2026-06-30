@@ -74,6 +74,30 @@ philosophy: "Learn, build, share, repeat."
 
 ---
 
+## 📋 Contributions
+
+| Repo | Contribution | Status |
+|------|-------------|--------|
+| [`rtk-ai/rtk`][rtk-2760] | Korean README dead link fix | `#2760` |
+| [`rtk-ai/rtk`][rtk-2759] | Copilot init docs fix | `#2759` |
+| [`rtk-ai/rtk`][rtk-2761] | ripgrep recommendation | `#2761` |
+| [`browser-use/video-use`][vu-96] | Codex install path docs | `#96` |
+| [`DietrichGebert/ponytail`][pt-470] | Skills table fix | `#470` |
+| [`headroomlabs-ai/headroom`][hr] | 6 Q&A discussions answered | ⏳ Awaiting acceptance |
+| [`DeusData/codebase-memory-mcp`][cmm] | 2 Q&A discussions answered | ⏳ Awaiting acceptance |
+| [`omnigent-ai/omnigent`][og] | OIDC auth Q&A answered | ⏳ Awaiting acceptance |
+
+[rtk-2760]: https://github.com/rtk-ai/rtk/pull/2760
+[rtk-2759]: https://github.com/rtk-ai/rtk/pull/2759
+[rtk-2761]: https://github.com/rtk-ai/rtk/pull/2761
+[vu-96]: https://github.com/browser-use/video-use/pull/96
+[pt-470]: https://github.com/DietrichGebert/ponytail/pull/470
+[hr]: https://github.com/headroomlabs-ai/headroom/discussions/587
+[cmm]: https://github.com/DeusData/codebase-memory-mcp/discussions/436
+[og]: https://github.com/omnigent-ai/omnigent/discussions/1566
+
+---
+
 ## 🌱 Currently Exploring
 
 - Advanced Termux automation & tooling
@@ -91,4 +115,12 @@ philosophy: "Learn, build, share, repeat."
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=highoncomputers&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/highoncomputers/highoncomputers/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/highoncomputers/highoncomputers/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/highoncomputers/highoncomputers/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
