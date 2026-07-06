@@ -1,0 +1,44 @@
+name: Generate repo stats
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch repo stats
+        id: stats
+        run: |
+          REPOS=("enterprise-admin-agent" "BugFinder" "PocketSET" "pocket-kali" "termux-debian-auto" "DebianDroid" "hearth-and-harvest")
+          echo '| Repo | Stars | Forks | Language | Last Push |' > assets/repo-stats.md
+          echo '|------|-------|-------|----------|-----------|' >> assets/repo-stats.md
+          for repo in "${REPOS[@]}"; do
+            data=$(curl -s "https://api.github.com/repos/highoncomputers/$repo")
+            name=$(echo "$data" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('name',''))")
+            stars=$(echo "$data" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('stargazers_count',0))")
+            forks=$(echo "$data" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('forks_count',0))")
+            lang=$(echo "$data" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('language','') or '')")
+            pushed=$(echo "$data" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('pushed_at','')[:10] if d.get('pushed_at') else '')")
+            echo "| [$name](https://github.com/highoncomputers/$repo) | $stars | $forks | $lang | $pushed |" >> assets/repo-stats.md
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update repo stats"
+          git push
