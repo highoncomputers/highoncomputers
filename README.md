@@ -315,16 +315,13 @@ focus:
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=highoncomputers&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=highoncomputers&theme=radical&hide_border=true" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=highoncomputers&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/highoncomputers/highoncomputers/main/assets/github-metrics.svg" alt="GitHub Metrics"/>
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=highoncomputers&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
+  <img height="165" src="https://streak-stats.demolab.com/?user=highoncomputers&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=highoncomputers&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
 </p>
 
 ---
